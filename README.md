@@ -86,11 +86,11 @@ use auxiliary/scanner/mysql/mysql_version
 
 Use the set rhosts command to set the parameter and run the module, as follows:
 
-![VirtualBox_kali-linux-2024 1-virtualbox-amd64_24_04_2024_10_33sudo](https://github.com/Narasimhan05/Metasploit-for-reconnaissance/assets/132819871/9f8bf31b-9469-4103-9985-50451dd74a6a)
+![Screenshot 2024-04-24 091025](https://github.com/Narasimhan05/Metasploit-for-reconnaissance/assets/132819871/3ede68c3-c378-4c19-97eb-9da87f3f6ef8)
 
 After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
 
-![VirtualBox_kali-linux-2024 1-virtualbox-amd64_24_04_2024_10_31sudo](https://github.com/Narasimhan05/Metasploit-for-reconnaissance/assets/132819871/6e36b1a7-9252-4965-a24a-ecf1ddbddbc0)
+![VirtualBox_kali-linux-2024 1-virtualbox-amd64_24_04_2024_10_33sudo](https://github.com/Narasimhan05/Metasploit-for-reconnaissance/assets/132819871/9f8bf31b-9469-4103-9985-50451dd74a6a)
 
 set the PASS_FILE parameter to the wordlist path available inside /usr/share/wordlists:
 set PASS_FILE /usr/share/wordlistss/rockyou.txt
@@ -99,5 +99,6 @@ set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
 
+![VirtualBox_kali-linux-2024 1-virtualbox-amd64_24_04_2024_10_31sudo](https://github.com/Narasimhan05/Metasploit-for-reconnaissance/assets/132819871/6e36b1a7-9252-4965-a24a-ecf1ddbddbc0)
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
